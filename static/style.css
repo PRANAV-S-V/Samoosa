@@ -52,3 +52,14 @@ body {
   font-style: normal;
   font-size: 1.5rem;
 }
+
+.result-text-box {
+    max-height: 200px; /* Set the maximum height of the result box */
+    overflow: auto; /* Enable scrolling if content overflows */
+    padding-right: 20px; /* Add padding to accommodate scrollbar */
+}
+
+.result-text {
+    /* Additional styles for the text content inside the result box */
+    margin-bottom: 0; /* Remove margin to avoid extra space at the bottom */
+}
